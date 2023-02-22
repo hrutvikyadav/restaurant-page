@@ -157,7 +157,7 @@ eval("module.exports = {\"note\":{\"to\":[\"Mary\"],\"from\":[\"John\"],\"headin
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _bistro_img_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./bistro-img.jpg */ \"./src/bistro-img.jpg\");\n/* harmony import */ var _data_xml__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./data.xml */ \"./src/data.xml\");\n/* harmony import */ var _data_xml__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_data_xml__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _data_csv__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./data.csv */ \"./src/data.csv\");\n/* harmony import */ var _data_csv__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_data_csv__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\n\nconsole.log(\"Webpack working\")\nconsole.log(\"working in development mode\")\n\nlet contentDiv = document.getElementById('content')\n\nlet heading = document.createElement('h1')\nheading.textContent = \"Brady's Bistro\"\ncontentDiv.appendChild(heading)\n\nlet imageEl = document.createElement('img')\nimageEl.setAttribute('src', _bistro_img_jpg__WEBPACK_IMPORTED_MODULE_1__)\nimageEl.setAttribute('id', 'img-element')\ncontentDiv.appendChild(imageEl)\n\nconsole.log((_data_xml__WEBPACK_IMPORTED_MODULE_2___default()), \"\\n\", (_data_csv__WEBPACK_IMPORTED_MODULE_3___default()))\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _bistro_img_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./bistro-img.jpg */ \"./src/bistro-img.jpg\");\n/* harmony import */ var _data_xml__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./data.xml */ \"./src/data.xml\");\n/* harmony import */ var _data_xml__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_data_xml__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _data_csv__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./data.csv */ \"./src/data.csv\");\n/* harmony import */ var _data_csv__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_data_csv__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _data_toml__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./data.toml */ \"./src/data.toml\");\n/* harmony import */ var _data_yaml__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./data.yaml */ \"./src/data.yaml\");\n/* harmony import */ var _data_json5__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./data.json5 */ \"./src/data.json5\");\n\n\n\n\n\n\n\n\nconsole.log(\"Webpack working\")\nconsole.log(\"working in development mode\")\n\nlet contentDiv = document.getElementById('content')\n\nlet heading = document.createElement('h1')\nheading.textContent = \"Brady's Bistro\"\ncontentDiv.appendChild(heading)\n\nlet imageEl = document.createElement('img')\nimageEl.setAttribute('src', _bistro_img_jpg__WEBPACK_IMPORTED_MODULE_1__)\nimageEl.setAttribute('id', 'img-element')\ncontentDiv.appendChild(imageEl)\n\nconsole.log((_data_xml__WEBPACK_IMPORTED_MODULE_2___default()), \"\\n\", (_data_csv__WEBPACK_IMPORTED_MODULE_3___default()))\nconsole.log(_data_toml__WEBPACK_IMPORTED_MODULE_4__.title, _data_toml__WEBPACK_IMPORTED_MODULE_4__.owner.name)\nconsole.log(_data_yaml__WEBPACK_IMPORTED_MODULE_5__.title, _data_yaml__WEBPACK_IMPORTED_MODULE_5__.owner.name)\nconsole.log(_data_json5__WEBPACK_IMPORTED_MODULE_6__.title, _data_json5__WEBPACK_IMPORTED_MODULE_6__.owner.name)\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ }),
 
@@ -191,6 +191,39 @@ eval("module.exports = __webpack_require__.p + \"31d6cfe0d16ae931b73c.woff\";\n\
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"31d6cfe0d16ae931b73c.woff\";\n\n//# sourceURL=webpack://restaurant-page/./src/ftest.woff?");
+
+/***/ }),
+
+/***/ "./src/data.json5":
+/*!************************!*\
+  !*** ./src/data.json5 ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+eval("module.exports = JSON.parse('{\"title\":\"JSON5 Example\",\"owner\":{\"name\":\"Tom Preston-Werner\",\"organization\":\"GitHub\",\"bio\":\"GitHub Cofounder & CEO\\\\nLikes tater tots and beer.\",\"dob\":\"1979-05-27T07:32:00.000Z\"}}');\n\n//# sourceURL=webpack://restaurant-page/./src/data.json5?");
+
+/***/ }),
+
+/***/ "./src/data.toml":
+/*!***********************!*\
+  !*** ./src/data.toml ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+eval("module.exports = JSON.parse('{\"title\":\"TOML Example\",\"owner\":{\"name\":\"Tom Preston-Werner\",\"organization\":\"GitHub\",\"bio\":\"GitHub Cofounder & CEO\\\\nLikes tater tots and beer.\",\"dob\":\"1979-05-27T07:32:00.000Z\"}}');\n\n//# sourceURL=webpack://restaurant-page/./src/data.toml?");
+
+/***/ }),
+
+/***/ "./src/data.yaml":
+/*!***********************!*\
+  !*** ./src/data.yaml ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+eval("module.exports = JSON.parse('{\"title\":\"YAML Example\",\"owner\":{\"name\":\"Tom Preston-Werner\",\"organization\":\"GitHub\",\"bio\":\"GitHub Cofounder & CEO\\\\nLikes tater tots and beer.\",\"dob\":\"1979-05-27T07:32:00.000Z\"}}');\n\n//# sourceURL=webpack://restaurant-page/./src/data.yaml?");
 
 /***/ })
 

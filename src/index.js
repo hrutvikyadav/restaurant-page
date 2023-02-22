@@ -2,6 +2,9 @@ import './styles.css';
 import Bistro from './bistro-img.jpg';
 import XData from './data.xml';
 import CData from './data.csv';
+import toml from './data.toml';
+import yaml from './data.yaml';
+import json from './data.json5';
 
 console.log("Webpack working")
 console.log("working in development mode")
@@ -18,3 +21,6 @@ imageEl.setAttribute('id', 'img-element')
 contentDiv.appendChild(imageEl)
 
 console.log(XData, "\n", CData)
+console.log(toml.title, toml.owner.name)
+console.log(yaml.title, yaml.owner.name)
+console.log(json.title, json.owner.name)
